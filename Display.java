@@ -18,7 +18,7 @@ public class Display extends World
     public Display()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 800, 1); 
+        super(1180, 720, 1); 
         score = 0;
         prepare();
     }
@@ -29,13 +29,13 @@ public class Display extends World
         addObject(fl,400,400);
 
         zombie zb = new zombie();
-        addObject(zb,50,700);
+        addObject(zb,150,600);
         zombie zb2 = new zombie();
         addObject(zb2,50,100);
         zombie zb3 = new zombie();
-        addObject(zb3,750,700);
+        addObject(zb3,900,600);
         zombie zb4 = new zombie();
-        addObject(zb4,750,100);
+        addObject(zb4,900,100);
         goldenegg gde = new goldenegg();
         goldenegg gde2 = new goldenegg();
         goldenegg gde3 = new goldenegg();

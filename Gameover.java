@@ -19,7 +19,7 @@ public class Gameover extends World
     public Gameover()
     {    
 
-        super(1280, 720, 1); 
+        super(1180, 700, 1); 
 
     }
 
